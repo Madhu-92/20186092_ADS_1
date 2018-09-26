@@ -1,7 +1,10 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for solution.
+ */
 class Solution {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int intArray = scan.nextInt();
         int[] a = new int[intArray];
