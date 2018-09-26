@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-class No_of_pairs {
+class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int intArray = scan.nextInt();
