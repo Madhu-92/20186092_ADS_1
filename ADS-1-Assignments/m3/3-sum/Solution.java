@@ -12,11 +12,11 @@ class Solution {
         int count = 0;
         for (int i = 0; i < intArray - 2; i++) {
             int j = i + 1;
-            int k = intArray;
+            int k = intArray - 1;
             while (j < k) {
                 if (a[i] + a[j] + a[k] == 0) {
                     count++;
-                    j--;
+                    j++;
                     k--;
                 } else if (a[i] + a[j] + a[k] < 0) {
                     j++;
