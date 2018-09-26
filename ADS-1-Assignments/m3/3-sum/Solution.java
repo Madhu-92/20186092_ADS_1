@@ -16,6 +16,7 @@ class Solution {
             while (j < k) {
                 if (a[i] + a[j] + a[k] == 0) {
                     count++;
+                    j--;
                     k--;
                 } else if (a[i] + a[j] + a[k] < 0) {
                     j++;
