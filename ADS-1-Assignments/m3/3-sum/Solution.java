@@ -5,6 +5,14 @@ import java.util.Arrays;
  */
 public class Solution {
     /**
+     * Constructs the object.
+     */
+    Solution() { 
+    /**
+     * Empty
+     */
+    }
+    /**
      * main method.
      *
      * @param      args  The arguments
