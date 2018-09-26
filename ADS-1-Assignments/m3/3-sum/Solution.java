@@ -3,7 +3,12 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
+public class Solution {
+    /**
+     * main method.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int intArray = scan.nextInt();
