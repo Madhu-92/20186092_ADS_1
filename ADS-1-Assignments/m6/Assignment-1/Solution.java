@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.LinkedList;
 import java.util.Iterator;
-import java.util.Stack;
+//import java.util.Stack;
 /**
  * Class for add large numbers.
  */
