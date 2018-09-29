@@ -6,6 +6,14 @@ import java.util.Iterator;
  */
 class AddLargeNumbers {
     /**
+     * Constructs the object.
+     */
+    private AddLargeNumbers() {
+        /**
+         * Empty
+         */
+    }
+    /**
      * number to digits method.
      *
      * @param      number  The number
@@ -54,6 +62,14 @@ class AddLargeNumbers {
  * Class for solution.
  */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        /**
+         * Empty
+         */
+    }
     /**
      * main method.
      *
