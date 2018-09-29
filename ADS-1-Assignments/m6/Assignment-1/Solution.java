@@ -1,9 +1,26 @@
 import java.util.Scanner;
 import java.util.LinkedList;
 import java.util.*;
+/**
+ * Class for add large numbers.
+ */
 class AddLargeNumbers {
-
-    public static LinkedList numberToDigits(String number) {
+    /**
+     * Constructs the object.
+     */
+    AddLargeNumbers() {
+        /**
+         * Empty
+         */
+    }
+    /**
+     * number to digits method.
+     *
+     * @param      number  The number
+     *
+     * @return     returns the object
+     */
+    public static LinkedList numberToDigits(final String number) {
         LinkedList<Integer> obj = new LinkedList<Integer>();
         for (int i = 0; i < number.length(); i++) {
             obj.addLast(Character.getNumericValue(number.charAt(i)));
@@ -11,7 +28,14 @@ class AddLargeNumbers {
         return obj;
     }
 
-    public static String digitsToNumber(LinkedList list) {
+    /**
+     * digitTonumber method.
+     *
+     * @param      list  The list
+     *
+     * @return     returns a string
+     */
+    public static String digitsToNumber(final LinkedList list) {
         String str = "";
         Iterator iterator = list.listIterator();
         while (iterator.hasNext()) {
@@ -20,11 +44,23 @@ class AddLargeNumbers {
         return str;
     }
 
-    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+    /**
+     * Adds large numbers.
+     *
+     * @param      l1    The l 1
+     * @param      l2    The l 2
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static LinkedList addLargeNumbers(
+                 final LinkedList l1, final LinkedList l2) {
         return null;
     }
 }
 
+/**
+ * Class for solution.
+ */
 public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
