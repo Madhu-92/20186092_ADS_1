@@ -6,14 +6,6 @@ import java.util.*;
  */
 class AddLargeNumbers {
     /**
-     * Constructs the object.
-     */
-    AddLargeNumbers() {
-        /**
-         * Empty
-         */
-    }
-    /**
      * number to digits method.
      *
      * @param      number  The number
@@ -88,7 +80,6 @@ public class Solution {
             //                   addLargeNumbers(pDigits, qDigits);
             //     System.out.println(AddLargeNumbers.digitsToNumber(result));
             //     break;
-            
         }
     }
 
