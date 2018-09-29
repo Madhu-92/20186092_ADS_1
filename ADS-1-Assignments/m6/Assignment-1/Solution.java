@@ -62,7 +62,12 @@ class AddLargeNumbers {
  * Class for solution.
  */
 public class Solution {
-    public static void main(String[] args) {
+    /**
+     * main method.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String p = sc.nextLine();
@@ -73,14 +78,17 @@ public class Solution {
             LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
             System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
             System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
+            default:
             break;
 
             // case "addLargeNumbers":
             //     pDigits = AddLargeNumbers.numberToDigits(p);
             //     qDigits = AddLargeNumbers.numberToDigits(q);
-            //     LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+            //     LinkedList result = AddLargeNumbers.
+            //                   addLargeNumbers(pDigits, qDigits);
             //     System.out.println(AddLargeNumbers.digitsToNumber(result));
             //     break;
+            
         }
     }
 
