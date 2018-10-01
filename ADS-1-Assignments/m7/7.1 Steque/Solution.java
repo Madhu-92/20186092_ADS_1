@@ -11,12 +11,15 @@ public class Solution {
 			switch (tokens[0]) {
 				case "push":
 				obj.push(Integer.parseInt(tokens[1]));
+				obj.print();
 				break;
 				case "enqueue":
 				obj.enqueue(Integer.parseInt(tokens[1]));
+				obj.print();
 				break;
 				case "pop":
 				obj.pop();
+				obj.print();
 				break;
 				default:
 			}
@@ -85,5 +88,17 @@ class Steque {
 		}
 		head = head.nextAddress;
 		size--;
+	}
+	public void print() {
+		Node obj = head;
+		if (head == null) {
+			System.out.println("Steque is empty.");
+			return;
+		}
+		while (obj.getnextAddress() != null) {
+			System.out.print(obj.data + ", ");
+			obj = obj.getnextAddress();
+		}System.out.print(obj.data);
+		System.out.println();
 	}
 }
