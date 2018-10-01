@@ -8,20 +8,25 @@ public class Solution {
 		while (s.hasNext()) {
 			String line = s.nextLine();
 			String[] tokens = line.split(" ");
-			switch (tokens[0]) {
+			if (line.length() == 0) {
+				obj.setSize(0);
+				System.out.println();
+			} else {
+				switch (tokens[0]) {
 				case "push":
-				obj.push(Integer.parseInt(tokens[1]));
-				obj.print();
-				break;
+					obj.push(Integer.parseInt(tokens[1]));
+					obj.print();
+					break;
 				case "enqueue":
-				obj.enqueue(Integer.parseInt(tokens[1]));
-				obj.print();
-				break;
+					obj.enqueue(Integer.parseInt(tokens[1]));
+					obj.print();
+					break;
 				case "pop":
-				obj.pop();
-				obj.print();
-				break;
+					obj.pop();
+					obj.print();
+					break;
 				default:
+				}
 			}
 		}
 
@@ -89,6 +94,9 @@ class Steque {
 		head = head.nextAddress;
 		size--;
 	}
+	public void setSize(int value) {
+		this.size = value;
+	}
 	public void print() {
 		Node obj = head;
 		if (head == null) {
@@ -98,7 +106,7 @@ class Steque {
 		while (obj.getnextAddress() != null) {
 			System.out.print(obj.data + ", ");
 			obj = obj.getnextAddress();
-		}System.out.print(obj.data);
+		} System.out.print(obj.data);
 		System.out.println();
 	}
 }
