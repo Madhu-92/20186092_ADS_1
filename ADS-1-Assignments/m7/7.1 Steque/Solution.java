@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * Solution class.
+ */
 public final class Solution {
     /**
      * Solution constructor.
