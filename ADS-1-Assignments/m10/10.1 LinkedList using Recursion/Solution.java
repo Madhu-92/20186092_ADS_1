@@ -7,8 +7,13 @@ class LinkedList {
    * Class for node.
    */
   private class Node {
-
+    /**
+     * variable value.
+     */
     private int value;
+    /**
+     * variable next.
+     */
     private Node next;
     /**
      * Constructs the object.
@@ -26,8 +31,17 @@ class LinkedList {
       this.next = next;
     }
   }
+  /**
+   * variable head.
+   */
   private Node head;
+  /**
+   * variable tail.
+   */
   private Node tail;
+  /**
+   * variable size.
+   */
   private int size;
   /**
    * Constructs the object.

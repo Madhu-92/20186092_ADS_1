@@ -1,9 +1,4 @@
 Starting audit...
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:11:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:12:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:29:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:30:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:31:3: Missing a Javadoc comment. [JavadocVariable]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
