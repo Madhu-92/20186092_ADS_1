@@ -1,9 +1,28 @@
 import java.util.Scanner;
+/**
+ * Class for merge.
+ */
 class Merge {
+    /**
+     * cutoff to insertion sort.
+     */
     private final int cutOff = 7;
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     */
     Merge() {
-        
+        //Blank Constructor.
     }
+    /**
+     * Method to merge two arrays.
+     * Time complexity of this method is O(N).
+     * @param      array  The array
+     * @param      aux    The auxiliary
+     * @param      low     The lowwer value
+     * @param      mid    The middle value
+     * @param      high     The higher value
+     */
     public void merge(final Comparable[] array, final Comparable[] aux,
                       final int low, final int mid, final int high) {
         assert isSorted(array, low, mid);
@@ -23,6 +42,14 @@ class Merge {
         }
         assert isSorted(aux, low, high);
     }
+     /**
+     * Method for sorting.
+     * Time complexity of sorting is O(log(N)).
+     * @param      array  The array
+     * @param      aux    The auxiliary array
+     * @param      low     The lowwer value
+     * @param      high     The higher value
+     */
     public void sort(final Comparable[] array, final Comparable[] aux,
                      final int low, final int high) {
         if (high <= low + cutOff) {
@@ -44,12 +71,24 @@ class Merge {
         }
         merge(array, aux, low, mid, high);
     }
+    /**
+     * Rearranges the array in ascending order, using the natural order.
+     * Time complexity of this method is O(N).
+     * @param      array     Comparable array.
+     */
     public void sort(final Comparable[] array) {
         Comparable[] aux = array.clone();
         sort(aux, array, 0, array.length - 1);
         assert isSorted(array);
     }
-
+     /**
+     * Method for insertion sort.
+     * sort from array[low] to array[high].
+     * Time complexity of insertion sort is O(N^2/2).
+     * @param      array     Comparable array.
+     * @param      low    The lowwer value
+     * @param      high    The higher value
+     */
     public void insertionSort(final Comparable[] array,
                               final int low, final int high) {
         for (int i = low; i <= high; i++) {
@@ -59,18 +98,49 @@ class Merge {
             }
         }
     }
+    /**
+     * Method to exchange two elements in the array.
+     * Time complexity of this method is O(N).
+     * @param      array     Array of object
+     * @param      i     Integer i
+     * @param      j     Integer j
+     */
     public void exch(final Comparable[] array,
                      final int i, final int j) {
         Comparable swap = array[i];
         array[i] = array[j];
         array[j] = swap;
     }
+    /**
+     * Method to check which one is smaller of the two.
+     * Time complextiy of this method is O(1).
+     * @param      array     Comparable.
+     * @param      b     Comparable.
+     *
+     * @return     Boolean value.
+     */
     public boolean less(final Comparable array, final Comparable b) {
         return array.compareTo(b) < 0;
     }
+     /**
+     * Method to determine if the array is sorted (or) not.
+     * Time complexity of this method is O(1).
+     * @param      array     Comparable array
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(final Comparable[] array) {
         return isSorted(array, 0, array.length - 1);
     }
+    /**
+     * Method to determine if the array is sorted (or) not.
+     * Time complexity of this method is O(N).
+     * @param      array     Comparable array
+     * @param      low    The lowwer
+     * @param      high    The higher
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(final Comparable[] array,
                             final int low, final int high) {
         for (int i = low + 1; i <= high; i++) {
@@ -81,7 +151,13 @@ class Merge {
         }
         return true;
     }
-    
+    /**
+     * Method to print the values of the Comparable array.
+     * Time complexity of this method is O(N).
+     * @param      array     Name of object array
+     *
+     * @return     String
+     */
     public String show(final Comparable[] array) {
         String str = "[";
         int i;
@@ -92,10 +168,22 @@ class Merge {
         return str;
     }
 }
-
+/**
+ * Solution class.
+ */
 public final class Solution {
+    /**
+     * Constructs the object.
+     * Time complexity of this method is O(1).
+     */
     private Solution() {
+        //Blank Constructor.
     }
+    /**
+     * Client Program.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         Merge mergeObj = new Merge();
