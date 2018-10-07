@@ -84,7 +84,7 @@ public final class Solution {
 
   }
   public static void main(final String[] args) {
-    LinkedList object = new LinkedList();
+    LinkedList obj = new LinkedList();
     Scanner sc = new Scanner(System.in);
     while (sc.hasNext()) {
       String[] tokens = sc.nextLine().split(" ");
@@ -92,13 +92,13 @@ public final class Solution {
         switch (tokens[0]) {
 
         case "insertAt" :
-          object.insertAt(Integer.parseInt(tokens[1]),
+          obj.insertAt(Integer.parseInt(tokens[1]),
                           Integer.parseInt(tokens[2]));
-          object.display();
+          obj.display();
           break;
         case "reverse":
-          object.reverse();
-          object.display();
+          obj.reverse();
+          obj.display();
           break;
         default:
         }
