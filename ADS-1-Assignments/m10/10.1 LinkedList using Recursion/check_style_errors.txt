@@ -1,22 +1,9 @@
 Starting audit...
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:9:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:14:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:15:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:16:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:17:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:22:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:30:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:44:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:51:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:67:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:82: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:83:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:86:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:11:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:12:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:29:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:30:3: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m10\10.1 LinkedList using Recursion\Solution.java:31:3: Missing a Javadoc comment. [JavadocVariable]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 6 errors.
