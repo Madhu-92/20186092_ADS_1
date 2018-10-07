@@ -67,12 +67,14 @@ class LinkedList {
   public void display() {
     Node curr = head;
     String result = "";
+    while (curr != null) {
       if (curr.next == null) {
         result += curr.value;
       } else {
         result += curr.value + ", ";
       }
       curr = curr.next;
+    }
 
     System.out.println(result);
   }
