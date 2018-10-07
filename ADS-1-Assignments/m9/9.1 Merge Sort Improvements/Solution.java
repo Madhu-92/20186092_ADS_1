@@ -54,7 +54,7 @@ class Merge {
                               final int low, final int high) {
         for (int i = low; i <= high; i++) {
             for (int j = i; j > low && less(
-                        array[i], array[j - 1]); j--) {
+                        array[j], array[j - 1]); j--) {
                 exch(array, j, j - 1);
             }
         }
