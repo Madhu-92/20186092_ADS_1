@@ -1,9 +1,28 @@
 import java.util.Scanner;
+/**
+ * Class for minimum heap.
+ *
+ * @param      <E>   generic type
+ */
 class MinHeap<E extends Comparable<E>> {
-    
+    /**
+     * Constructs the object.
+     */
     MinHeap() {
-
+    // Blank Constructor.
     }
+    /**
+     * This method checks the given input
+     * satisfies minheap or not and returns
+     * boolean value.
+     * Time complexity of this method is O(N)
+     * this method checks each element from child node
+     * till it reaches to parent node of every node.
+     *
+     * @param      input  The input
+     *
+     * @return     returns boolean value.
+     */
     public boolean check(final E[] input) {
         int i = input.length - 1;
         while (i > 1) {
@@ -17,13 +36,24 @@ class MinHeap<E extends Comparable<E>> {
     }
 
 }
-
+/**
+ * Class for solution.
+ */
 final class Solution {
-    
+    /**
+     * Constructs the object.
+     */
     private Solution() {
 
     }
-
+    /**
+     * main method is used to perform the operations
+     * Time Complexity of this method is O(N*M)
+     * this method N is the number of inputs and M is
+     * number of values in array.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String dataType = sc.nextLine();
