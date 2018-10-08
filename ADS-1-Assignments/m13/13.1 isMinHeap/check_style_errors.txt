@@ -7,7 +7,6 @@ Starting audit...
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m13\13.1 isMinHeap\Solution.java:21: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m13\13.1 isMinHeap\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m13\13.1 isMinHeap\Solution.java:23:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m13\13.1 isMinHeap\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m13\13.1 isMinHeap\Solution.java:27:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 9 errors.

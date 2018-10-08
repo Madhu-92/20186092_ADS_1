@@ -7,7 +7,7 @@ class MinHeap<E extends Comparable<E>> {
     public boolean check(final E[] input) {
         int i = input.length - 1;
         while (i > 1) {
-            if (input[i].compareTo(input[i / 2]) > 0) {
+            if (input[i].compareTo(input[i / 2]) >= 0) {
                 i -= 1;
             } else {
                 return false;
@@ -23,7 +23,7 @@ final class Solution {
     private Solution() {
 
     }
-    
+
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String dataType = sc.nextLine();
