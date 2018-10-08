@@ -4,7 +4,7 @@ import java.util.Arrays;
  * Class for insertion sort.
  */
 class InsertionSort {
-	/**
+    /**
      * Constructs the object.
      */
     InsertionSort() {
@@ -54,7 +54,7 @@ class InsertionSort {
  * Class for quick sort.
  */
 class QuickSort {
-	/**
+    /**
      * Cutoff Specified by User.
      */
     private int cutoff;
@@ -167,11 +167,11 @@ class QuickSort {
  * Class for solution.
  */
 public final class Solution {
-	/**
+    /**
      * Constructs the object.
      */
     private Solution() {
-    	// Blank Constructor.
+        // Blank Constructor.
     }
     /**
      * Main Method to Sort the Elements using Quick Sort.
