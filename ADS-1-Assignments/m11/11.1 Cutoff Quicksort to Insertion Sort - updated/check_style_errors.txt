@@ -1,20 +1,5 @@
 Starting audit...
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:8:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:13:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:29: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:30:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:31:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:32:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:37:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:43:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:55:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:84:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:88:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:95: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:96:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:99:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 2 errors.
