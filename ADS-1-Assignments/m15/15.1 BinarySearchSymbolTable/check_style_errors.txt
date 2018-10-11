@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:206: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:226: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:251: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:252: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:253:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:256:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 7 errors.
