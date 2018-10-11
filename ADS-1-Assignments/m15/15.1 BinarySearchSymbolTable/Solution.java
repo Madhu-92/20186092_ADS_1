@@ -204,7 +204,7 @@ class BinarySearchST<Keys extends Comparable<Keys>, Values> {
         return keys[index];
     }
     /**
-     * This method returns the key which is equal to the element
+     * This method returns the key which is equal to the element.
      * in keys array
      * else returns the largest element
      * Time complexity of this method is O(logN)
@@ -224,7 +224,7 @@ class BinarySearchST<Keys extends Comparable<Keys>, Values> {
         return keys[rank - 1];
     }
     /**
-     * This method returns the key which is equal to the element
+     * This method returns the key which is equal to the element.
      * in keys array
      * else returns the smallest element
      * Time complexity of this method is O(logN)
@@ -247,12 +247,22 @@ class BinarySearchST<Keys extends Comparable<Keys>, Values> {
         }
     }
 }
-
+/**
+ * Class for solution.
+ */
 final class Solution {
-    
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        // Blank constructor.
     }
+    /**
+     * The main method perform operations.
+     * Time complexity of this method is O(N)
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         BinarySearchST<String, Integer> obj = new BinarySearchST<>();
         Scanner sc = new Scanner(System.in);
