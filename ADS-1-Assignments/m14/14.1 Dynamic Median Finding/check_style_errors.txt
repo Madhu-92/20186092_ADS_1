@@ -1,8 +1,4 @@
 Starting audit...
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:53: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:61: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:77: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:124: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:125:13: '{' at column 13 should be on the previous line. [LeftCurly]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.

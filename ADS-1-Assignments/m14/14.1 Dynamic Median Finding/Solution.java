@@ -51,7 +51,7 @@ class MedianFinding {
         return maxObj.max();
     }
     /**
-     * this method deletes the min element from minheap
+     * this method deletes the min element from minheap.
      *
      * @return     returns the deleted element from minheap
      */
@@ -59,7 +59,7 @@ class MedianFinding {
         return minObj.delMin();
     }
     /**
-     * this method deletes the max element from maxheap
+     * this method deletes the max element from maxheap.
      *
      * @return     returns the deleted element from maxheap
      */
@@ -75,7 +75,7 @@ class MedianFinding {
         return maxObj.size();
     }
     /**
-     * the size of minheap
+     * the size of minheap.
      *
      * @return     the size of minheap.
      */
@@ -121,7 +121,8 @@ final class Solution {
             if (medianObj.getMaxSize() - medianObj.getMinSize() > 1) {
                 medianObj.minInsert(medianObj.delMax());
             }
-            if (Math.abs(medianObj.getMaxSize() - medianObj.getMinSize()) == 1) {
+            if (Math.abs(medianObj.getMaxSize() - medianObj.getMinSize()) == 1)
+            {
                 if (medianObj.getMinSize() > medianObj.getMaxSize()) {
                     median = medianObj.getMin();
                     System.out.println(median);
