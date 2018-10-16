@@ -1,4 +1,5 @@
 Starting audit...
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:125:13: '{' at column 13 should be on the previous line. [LeftCurly]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:124: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.1 Dynamic Median Finding\Solution.java:124:49: '-' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.
