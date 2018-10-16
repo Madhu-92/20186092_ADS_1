@@ -121,8 +121,8 @@ final class Solution {
             if (medianObj.getMaxSize() - medianObj.getMinSize() > 1) {
                 medianObj.minInsert(medianObj.delMax());
             }
-            if (Math.abs(medianObj.getMaxSize() - 
-                                       medianObj.getMinSize()) == 1) {
+            if (Math.abs(medianObj.getMaxSize()
+                                     - medianObj.getMinSize()) == 1) {
                 if (medianObj.getMinSize() > medianObj.getMaxSize()) {
                     median = medianObj.getMin();
                     System.out.println(median);
