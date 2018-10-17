@@ -1,0 +1,19 @@
+Starting audit...
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:8:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:9:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:10:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:11:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:12:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:38:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:42:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:42:36: Variable 'comp' must be private and have accessor methods. [VisibilityModifier]
+Audit done.
+Checkstyle ends with 16 errors.
