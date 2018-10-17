@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m14\14.2 student reservation system\StudentInformation.java:91:36: Variable 'comp' must be private and have accessor methods. [VisibilityModifier]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
