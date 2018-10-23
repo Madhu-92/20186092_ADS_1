@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m20\20.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m20\20.1 BST\Solution.java:478: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m20\20.1 BST\Solution.java:479:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m20\20.1 BST\Solution.java:482:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m20\20.1 BST\Solution.java:510: Line is longer than 80 characters (found 82). [LineLength]
+Audit done.
+Checkstyle ends with 5 errors.
