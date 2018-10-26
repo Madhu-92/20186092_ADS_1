@@ -78,11 +78,11 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
          */
         private Key key;
         /**
-         * value of the book in Book class
+         * value of the book in Book class.
          */
         private Values value;
         /**
-         * Right node of the BST
+         * Right node of the BST.
          */
         private Node right;
         /**
@@ -150,7 +150,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return node;
     }
     /**
-     * This method is to return the value of that key
+     * This method is to return the value of that key.
      * Time Complexity is O(N)
      *
      * @param      key   The key
@@ -161,7 +161,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return get(root, key);
     }
     /**
-     * This method is to return the value of that key
+     * This method is to return the value of that key.
      * Time Complexity is O(N)
      *
      * @param      node  the node where the book details and
@@ -184,7 +184,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**
-     * this method returns minimum element in the tree
+     * this method returns minimum element in the tree.
      * Time complexity is O(logN)
      *
      * @return     returns minimum book details in the tree
@@ -210,7 +210,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**
-     * this method returns maximum element in the tree
+     * this method returns maximum element in the tree.
      * Time complexity is O(logN)
      *
      * @return     returns maximum element in the tree
@@ -219,7 +219,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return max(root).key;
     }
     /**
-     * this method returns maximum element in the tree
+     * this method returns maximum element in the tree.
      * Time complexity is O(logN)
      * it checks only right side of tree to find max element
      *
@@ -331,7 +331,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return ceiling(node.right, key);
     }
     /**
-     * this method returns the element in that position
+     * this method returns the element in that position.
      * Time complexity is O(logN)
      *
      * @param      k     position given as input
@@ -367,7 +367,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         }
     }
     /**
-     * this method returns the element in that position
+     * this method returns the element in that position.
      * Time complexity is O(logN)
      * it checks from root node to desired position
      *
@@ -402,7 +402,7 @@ final class Solution {
 
     }
     /**
-     * main method to perform operations
+     * main method to perform operations.
      *
      * @param      args  The arguments
      */
