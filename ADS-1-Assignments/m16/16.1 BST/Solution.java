@@ -12,7 +12,7 @@ class Book implements Comparable<Book> {
      */
     private String author;
     /**
-     * the price of the book
+     * the price of the book.
      */
     private double price;
     /**
@@ -69,11 +69,11 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
          */
         private Key key;
         /**
-         * value of the book in Book class
+         * value of the book in Book class.
          */
         private Values value;
         /**
-         * Right node of the BST
+         * Right node of the BST.
          */
         private Node right;
         /**
@@ -134,7 +134,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return node;
     }
     /**
-     * This method is to return the value of that key
+     * This method is to return the value of that key.
      * Time Complexity is O(N)
      *
      * @param      key   The key
@@ -145,7 +145,7 @@ class BinarySearchT<Key extends Comparable<Key>, Values> {
         return get(root, key);
     }
     /**
-     * This method is to return the value of that key
+     * This method is to return the value of that key.
      * Time Complexity is O(N)
      *
      * @param      node  the node where the book details and
@@ -179,7 +179,7 @@ final class Solution {
 
     }
     /**
-     * main method to perform operations
+     * main method to perform operations.
      *
      * @param      args  The arguments
      */
