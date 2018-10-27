@@ -16,7 +16,7 @@ final class Solution {
         }
         int getValues = Integer.parseInt(sc.nextLine());
         for (int j = 0; j < getValues; j++) {
-            String[] tokens = sc.nextLine().split("");
+            String[] tokens = sc.nextLine().split(" ");
             String str = lpObj.get(Integer.parseInt(tokens[1]));
             if (str != null) {
                 String[] tokens2 = str.split(",");
