@@ -1,9 +1,20 @@
 import java.util.Scanner;
-
+/**
+ * Solution class.
+ */
 final class Solution {
+    
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        //Blank constructor.
     }
+    /**
+     * Main method for performing operations.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         LinearProbingHashST<Integer, String> lpObj =
             new LinearProbingHashST<Integer, String>();
