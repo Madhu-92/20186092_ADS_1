@@ -4,6 +4,5 @@ Starting audit...
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m24\1\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m24\1\Solution.java:7:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m24\1\Solution.java:7:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m24\1\Solution.java:9: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 5 errors.

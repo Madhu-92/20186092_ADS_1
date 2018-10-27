@@ -6,7 +6,7 @@ final class Solution {
     }
     public static void main(String[] args) {
         LinearProbingHashST<Integer, String> lpObj =
-                                       new LinearProbingHashST<Integer, String>();
+            new LinearProbingHashST<Integer, String>();
         Scanner sc = new Scanner(System.in);
         int inputs = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < inputs; i++) {
@@ -25,8 +25,10 @@ final class Solution {
                 } else {
                     System.out.println(Double.parseDouble(tokens2[1]));
                 }
+            } else {
+                System.out.println("student doesn't exists...");
+            }
         }
-    }
     }
 
 }
