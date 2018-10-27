@@ -3,7 +3,6 @@ import java.util.Scanner;
  * Solution class.
  */
 final class Solution {
-    
     /**
      * Constructs the object.
      */
@@ -15,7 +14,7 @@ final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         LinearProbingHashST<Integer, String> lpObj =
             new LinearProbingHashST<Integer, String>();
         Scanner sc = new Scanner(System.in);
