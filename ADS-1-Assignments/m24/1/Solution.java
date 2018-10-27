@@ -18,7 +18,15 @@ final class Solution {
         for (int j = 0; j < getValues; j++) {
             String[] tokens = sc.nextLine().split("");
             String str = lpObj.get(Integer.parseInt(tokens[1]));
+            if (str != null) {
+                String[] tokens2 = str.split(",");
+                if (Integer.parseInt(tokens[2]) == 1) {
+                    System.out.println(tokens2[0]);
+                } else {
+                    System.out.println(Double.parseDouble(tokens2[1]));
+                }
         }
+    }
     }
 
 }
