@@ -12,7 +12,7 @@ class CubeSum implements Comparable<CubeSum> {
      */
     private final int first;
     /**
-     * this variable is the second number
+     * this variable is the second number.
      */
     private final int second;
     /**
@@ -52,7 +52,7 @@ class CubeSum implements Comparable<CubeSum> {
         return this.second;
     }
     /**
-     * This method compares both sums
+     * This method compares both sums.
      *
      * @param      that  The that
      *
@@ -86,7 +86,7 @@ class CubeSum implements Comparable<CubeSum> {
  */
 final class Solution {
     /**
-     * input numbers limit
+     * input numbers limit.
      */
     static final int INPUT = 600;
     /**
@@ -96,7 +96,7 @@ final class Solution {
 
     }
     /**
-     * Main method to print the Nth number of M times of combinitions
+     * Main method to print the Nth number of M times of combinitions.
      * Time complexity of method is O(2N)
      *
      * @param      args  The arguments
