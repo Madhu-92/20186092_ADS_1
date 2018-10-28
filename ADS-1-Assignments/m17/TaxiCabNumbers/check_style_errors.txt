@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m17\TaxiCabNumbers\Solution.java:14: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m17\TaxiCabNumbers\Solution.java:54: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m17\TaxiCabNumbers\Solution.java:88: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m17\TaxiCabNumbers\Solution.java:98: First sentence should end with a period. [JavadocStyle]
+Audit done.
+Checkstyle ends with 5 errors.
