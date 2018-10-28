@@ -1,7 +1,7 @@
- /**
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
- */
+/**
+*  @author Robert Sedgewick
+*  @author Kevin Wayne
+*/
 public class LinearProbingHashST<Key, Value> {
     private static final int INIT_CAPACITY = 4;
 
@@ -81,7 +81,7 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**
-     * Inserts the specified key-value pair into the symbol table, overwriting the old 
+     * Inserts the specified key-value pair into the symbol table, overwriting the old
      * value with the new value if the symbol table already contains the specified key.
      * Deletes the specified key (and its associated value) from this symbol table
      * if the specified value is {@code null}.
@@ -99,7 +99,7 @@ public class LinearProbingHashST<Key, Value> {
         }
 
         // double table size if 50% full
-        if (n >= m/2) resize(2*m);
+        if (n >= m / 2) resize(2 * m);
 
         int i;
         for (i = hash(key); keys[i] != null; i = (i + 1) % m) {
@@ -129,8 +129,8 @@ public class LinearProbingHashST<Key, Value> {
     }
 
     /**
-     * Removes the specified key and its associated value from this symbol table     
-     * (if the key is in this symbol table).    
+     * Removes the specified key and its associated value from this symbol table
+     * (if the key is in this symbol table).
      *
      * @param  key the key
      * @throws IllegalArgumentException if {@code key} is {@code null}
@@ -165,7 +165,7 @@ public class LinearProbingHashST<Key, Value> {
         n--;
 
         // halves size of array if it's 12.5% full or less
-        if (n > 0 && n <= m/8) resize(m/2);
+        if (n > 0 && n <= m / 8) resize(m / 2);
 
         assert check();
     }
@@ -189,7 +189,7 @@ public class LinearProbingHashST<Key, Value> {
     private boolean check() {
 
         // check that hash table is at most 50% full
-        if (m < 2*n) {
+        if (m < 2 * n) {
             System.err.println("Hash table size m = " + m + "; array size n = " + n);
             return false;
         }
@@ -204,14 +204,26 @@ public class LinearProbingHashST<Key, Value> {
         }
         return true;
     }
+    public String toString() {
+        String s = "{";
+        if (this.size() != 0) {
+            for (Key s1 : this.keys()) {
+                s += s1 + ":";
+                s += this.get(s1) + ", ";
+            }
+            return s.substring(0, s.length() - 2) + "}";
+        } else {
+            return s + "}";
+        }
 
+    }
 
     /**
      * Unit tests the {@code LinearProbingHashST} data type.
      *
      * @param args the command-line arguments
      */
-    // public static void main(String[] args) { 
+    // public static void main(String[] args) {
     //     LinearProbingHashST<String, Integer> st = new LinearProbingHashST<String, Integer>();
     //     for (int i = 0; !StdIn.isEmpty(); i++) {
     //         String key = StdIn.readString();
@@ -219,7 +231,7 @@ public class LinearProbingHashST<Key, Value> {
     //     }
 
     //     // print keys
-    //     for (String s : st.keys()) 
-    //         StdOut.println(s + " " + st.get(s)); 
+    //     for (String s : st.keys())
+    //         StdOut.println(s + " " + st.get(s));
     // }
 }
