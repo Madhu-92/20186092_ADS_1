@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m22\22.1 Ransom Note\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m22\22.1 Ransom Note\Solution.java:142: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m22\22.1 Ransom Note\Solution.java:248: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 3 errors.

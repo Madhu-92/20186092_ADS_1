@@ -140,7 +140,7 @@ class Hashing {
         return Math.abs(value.hashCode() % size);
     }
     /**
-     * insert into hash table
+     * insert into hash table.
      * time complexity for insert is O(log(N))
      * @param      word  The word
      * @param      pos   The position
@@ -246,7 +246,7 @@ class RansomNote {
 
 }
 /**
- * Solution class
+ * Solution class.
  */
 final class Solution {
     /**
