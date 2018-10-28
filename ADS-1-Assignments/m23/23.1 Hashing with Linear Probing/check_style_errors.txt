@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] D:\GIT\ADS-1\20186092_ADS_1\ADS-1-Assignments\m23\23.1 Hashing with Linear Probing\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
